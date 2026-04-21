@@ -64,6 +64,8 @@ Top Products list
 City-wise sales report
 Bar chart visualization of product sales
 📸 Sample Output Graph
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/b5e75871-39b7-4ad4-8df6-f792e3c0d7bb" />
+
 
 📊 Bar chart showing revenue distribution across products like:
 ----------------------------------------------------------------------
