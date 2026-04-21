@@ -1,0 +1,39 @@
+create database sales_db;
+USE sales_db;
+
+CREATE TABLE sales (
+    OrderID INT PRIMARY KEY,
+    Product VARCHAR(50),
+    Category VARCHAR(50),
+    Price FLOAT,
+    Quantity INT,
+    City VARCHAR(50),
+    Date DATE
+);
+INSERT INTO sales VALUES
+(1,'Laptop','Electronics',50000,2,'Mumbai','2024-01-10'),
+(2,'Phone','Electronics',20000,3,'Delhi','2024-01-15'),
+(3,'Shoes','Fashion',2000,5,'Kolkata','2024-02-05'),
+(4,'Tshirt','Fashion',800,4,'Delhi','2024-02-20'),
+(5,'Tablet','Electronics',30000,1,'Mumbai','2024-03-12'),
+(6,'Laptop','Electronics',55000,1,'Bangalore','2024-03-25'),
+(7,'Phone','Electronics',21000,2,'Mumbai','2024-04-10'),
+(8,'Shoes','Fashion',1800,3,'Kolkata','2024-04-18'),
+(9,'Tablet','Electronics',28000,2,'Delhi','2024-05-08'),
+(10,'Tshirt','Fashion',750,6,'Bangalore','2024-05-20');
+SELECT SUM(Price * Quantity) AS total_revenue FROM sales;
+
+SELECT Product, SUM(Price * Quantity) AS revenue
+FROM sales
+GROUP BY Product
+ORDER BY revenue DESC
+LIMIT 5;
+SELECT Category, SUM(Price * Quantity) AS revenue
+FROM sales
+GROUP BY Category;
+SELECT City, SUM(Price * Quantity) AS revenue
+FROM sales
+GROUP BY City;
+SELECT City, SUM(Price * Quantity) AS revenue
+FROM sales
+GROUP BY City;
