@@ -9,19 +9,33 @@ This project is a mini data analysis dashboard built using Python. It demonstrat
 The system stores sample sales records, performs analysis like total revenue, top-selling products, and city-wise sales, and visualizes results using graphs.
 
 🚀 Features
-🗄️ Create and manage SQLite database
+🐬create dataBase
+
 📥 Insert sample sales data automatically
+
 📊 Calculate total revenue
+
 🏆 Identify top-selling products
+
 🏙️ City-wise sales analysis
+
 📈 Visual representation using bar charts
+
 🔄 Easy to modify dataset for new analysis
+
+
 
 🛠️ Tech Stack
 Python 🐍
-MySql
+
+MySQL Workbench 🐬
+
 Pandas 📊
+
 Matplotlib 📈
+
+
+
 
 📂 Project Structure
 Sales_analysis/
