@@ -5,7 +5,7 @@
 📌 Project Description
 ------------------------------
 
-This project is a mini data analysis dashboard built using Python. It demonstrates how to use SQLite database, Pandas for data analysis, and Matplotlib for visualization to analyze sales data and generate insights.
+This project is a mini data analysis dashboard built using Python. It demonstrates how to use MySQL database, Pandas for data analysis, and Matplotlib for visualization to analyze sales data and generate insights.
 
 The system stores sample sales records, performs analysis like total revenue, top-selling products, and city-wise sales, and visualizes results using graphs.
 
